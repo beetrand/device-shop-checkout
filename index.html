@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="/assets/favicon-CWHwqypL.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Device Shop Checkout | devChallenges.io</title>
+    <link rel="stylesheet" crossorigin href="/assets/index-CtZ1NlPy.css">
+  </head>
+  <body class="bg-gray-100 font-Inter">
+    <div
+      class="w-full max-w-screen-xl mx-auto text-2xl font-bold h-60 pt-15 flex justify-center items-start bg-hero"
+    >
+      <div class="h-10 flex items-center">
+        <h1 class="text-white">Checkout</h1>
+        <div
+          class="count-badge flex justify-center items-center w-20 h-7 bg-black text-white ml-4 text-xs font-normal rounded-full"
+        >
+          3 ITEMS
+        </div>
+      </div>
+    </div>
+    <div
+      class="w-9/10 mx-auto absolute top-35 left-1/2 -translate-x-1/2 bg-transparent pb-8"
+    >
+      <div
+        class="sm:h-155 h-auto rounded-2xl flex overflow-hidden bg-white flex-col sm:flex-row"
+      >
+        <div class="bill-area bg-gray-200 sm:w-1/2 sm:h-full p-8 w-full h-auto">
+          <div class="product-list flex flex-col gap-6">
+            <div class="product flex gap-6">
+              <div
+                class="product-image w-24 aspect-square bg-gray-100 border-gray-300 border rounded-xl flex justify-center items-center"
+              >
+                <img src="/assets/Gold-CmM-acqL.png" alt="" />
+              </div>
+              <div class="product-description flex flex-col flex-1 gap-1">
+                <div class="flex justify-between font-bold">
+                  <span>iPhone 12 Pro</span>
+                  <span>$999.00</span>
+                </div>
+                <div class="text-gray-800">
+                  <span>Golden</span>
+                </div>
+                <div class="mt-auto flex justify-between text-gray-800">
+                  <span>x1</span>
+                  <span class="text-2xl">×</span>
+                </div>
+              </div>
+            </div>
+            <div class="product flex gap-6">
+              <div
+                class="product-image w-24 aspect-square bg-gray-100 border-gray-300 border rounded-xl flex justify-center items-center"
+              >
+                <img src="data:image/png;base64,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" alt="" />
+              </div>
+              <div class="product-description flex flex-col flex-1 gap-1">
+                <div class="flex justify-between font-bold">
+                  <span>Apple Watch</span>
+                  <span>$399.00</span>
+                </div>
+                <div class="text-gray-800">
+                  <span>Blue</span>
+                </div>
+                <div class="mt-auto flex justify-between text-gray-800">
+                  <span>x1</span>
+                  <span class="text-2xl">×</span>
+                </div>
+              </div>
+            </div>
+            <div class="product flex gap-6">
+              <div
+                class="product-image w-24 aspect-square bg-gray-100 border-gray-300 border rounded-xl flex justify-center items-center"
+              >
+                <img src="/assets/iMac-DAaeviXC.png" alt="" />
+              </div>
+              <div class="product-description flex flex-col flex-1 gap-1">
+                <div class="flex justify-between font-bold">
+                  <span>iMac</span>
+                  <span>$1199.00</span>
+                </div>
+                <div class="text-gray-800">
+                  <span>Green</span>
+                </div>
+                <div class="mt-auto flex justify-between text-gray-800">
+                  <span>x1</span>
+                  <span class="text-2xl">×</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="splitter w-full mt-6 mx-auto border-t-gray-300 border-t-2 px-4"
+          ></div>
+          <div class="coupon mt-8 flex gap-2">
+            <input
+              type="text"
+              class="border border-gray-300 bg-white rounded-lg px-3 py-2 h-12 min-w-0 flex-1 placeholder-gray-700"
+              placeholder="Enter coupon code"
+            />
+            <button class="w-35 h-12 bg-black text-white rounded-lg">
+              Apply Coupon
+            </button>
+          </div>
+          <div class="total space-y-2 mt-6 font-bold">
+            <div class="flex justify-between text-gray-700">
+              <span> Sub total </span>
+              <span> $2597.00 </span>
+            </div>
+            <div class="flex justify-between text-gray-700">
+              <span> Tax </span>
+              <span> $623.28 </span>
+            </div>
+            <div class="flex justify-between">
+              <span> Tax </span>
+              <span> $3220.28 </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="contract-info-area bg-white sm:w-1/2 sm:h-full p-8 w-full h-auto"
+        >
+          <h2 class="font-semibold">Contract Information</h2>
+          <div class="form-area grid grid-cols-2 grid-rows-3 gap-8 mt-8">
+            <div class="col-span-2">
+              <label for="" class="text-gray-800 font-semibold text-sm">
+                First & Last name
+              </label>
+              <input
+                type="text"
+                class="border border-gray-300 bg-gray-100 rounded-lg mt-1 px-3 py-2 w-full h-14 placeholder-gray-700"
+                placeholder="Enter first & last name"
+              />
+            </div>
+            <div class="col-span-2">
+              <label for="" class="text-gray-800 font-semibold text-sm">
+                Email Address
+              </label>
+              <input
+                type="text"
+                class="border border-gray-300 bg-gray-100 rounded-lg mt-1 px-3 py-2 w-full h-14 placeholder-gray-700"
+                placeholder="Enter email address"
+              />
+            </div>
+            <div class="row-start-3 col-start-1 col-end-2">
+              <label for="" class="text-gray-800 font-semibold text-sm">
+                Country
+              </label>
+              <select
+                class="block border border-gray-300 bg-gray-100 mt-1 px-3 py-2 w-full h-14 border rounded-lg text-black"
+              >
+                <option>Finland</option>
+                <option>Sweden</option>
+                <option>Norway</option>
+              </select>
+            </div>
+            <div class="row-start-3 col-start-2">
+              <label for="" class="text-gray-800 font-semibold text-sm">
+                Postal Code
+              </label>
+              <input
+                type="text"
+                class="border border-gray-300 bg-gray-100 rounded-lg mt-1 px-3 py-2 w-full h-14 placeholder-gray-700"
+                placeholder="00270"
+              />
+            </div>
+          </div>
+          <button class="mt-8 w-full h-14 bg-black text-white rounded-lg">
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--     
+    Checkout
+    
+    3 items
+    
+    iPhone 12 Pro
+    
+    Golden
+    
+    $999.00
+    
+    x 1
+    
+    Apple Watch
+    
+    Blue
+    
+    $399.00
+    
+    iMac
+    
+    Green
+    
+    $1199.00
+    
+    Enter coupon code
+    
+    Apply Coupon
+    
+    Sub total
+    
+    $2597.00
+    
+    Tax
+    
+    $623.28
+    
+    Total
+    
+    $3220.28
+    
+    Contact Information
+    
+    First & Last name
+    
+    Enter first & last name
+    
+    Email Address
+    
+    Enter email address
+    
+    Country
+    
+    Finland
+    
+    Postal Code
+    
+    00270
+    
+    Continue
+     -->
+  </body>
+</html>
