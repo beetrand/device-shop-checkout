@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.btn {
+  @apply bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-10 rounded;
+}
+@layer utilities {
+  .bg-hero {
+    background-image: url("/resources/background-image.png");
+    background-repeat: no-repeat;
+  }
+}
+@theme {
+  --color-primary-100: #ffe8f0;
+  --color-primary: #ee2b69;
+  --breakpoint-xs: 475px;
+  --font-Inter: "Inter";
+}

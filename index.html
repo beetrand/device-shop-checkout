@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Device Shop Checkout | devChallenges.io</title>
+  </head>
+  <body class="bg-gray-100 font-Inter">
+    <div
+      class="w-full max-w-screen-xl mx-auto text-2xl font-bold h-60 pt-15 flex justify-center items-start bg-hero"
+    >
+      <div class="h-10 flex items-center">
+        <h1 class="text-white">Checkout</h1>
+        <div
+          class="count-badge flex justify-center items-center w-20 h-7 bg-black text-white ml-4 text-xs font-normal rounded-full"
+        >
+          3 ITEMS
+        </div>
+      </div>
+    </div>
+    <div
+      class="w-9/10 mx-auto absolute top-35 left-1/2 -translate-x-1/2 bg-transparent pb-8"
+    >
+      <div
+        class="sm:h-155 h-auto rounded-2xl flex overflow-hidden bg-white flex-col sm:flex-row"
+      >
+        <div class="bill-area bg-gray-200 sm:w-1/2 sm:h-full p-8 w-full h-auto">
+          <div class="product-list flex flex-col gap-6">
+            <div class="product flex gap-6">
+              <div
+                class="product-image w-24 aspect-square bg-gray-100 border-gray-300 border rounded-xl flex justify-center items-center"
+              >
+                <img src="resources/Gold.png" alt="" />
+              </div>
+              <div class="product-description flex flex-col flex-1 gap-1">
+                <div class="flex justify-between font-bold">
+                  <span>iPhone 12 Pro</span>
+                  <span>$999.00</span>
+                </div>
+                <div class="text-gray-800">
+                  <span>Golden</span>
+                </div>
+                <div class="mt-auto flex justify-between text-gray-800">
+                  <span>x1</span>
+                  <span class="text-2xl">×</span>
+                </div>
+              </div>
+            </div>
+            <div class="product flex gap-6">
+              <div
+                class="product-image w-24 aspect-square bg-gray-100 border-gray-300 border rounded-xl flex justify-center items-center"
+              >
+                <img src="resources/Apple-watch.png" alt="" />
+              </div>
+              <div class="product-description flex flex-col flex-1 gap-1">
+                <div class="flex justify-between font-bold">
+                  <span>Apple Watch</span>
+                  <span>$399.00</span>
+                </div>
+                <div class="text-gray-800">
+                  <span>Blue</span>
+                </div>
+                <div class="mt-auto flex justify-between text-gray-800">
+                  <span>x1</span>
+                  <span class="text-2xl">×</span>
+                </div>
+              </div>
+            </div>
+            <div class="product flex gap-6">
+              <div
+                class="product-image w-24 aspect-square bg-gray-100 border-gray-300 border rounded-xl flex justify-center items-center"
+              >
+                <img src="resources/iMac.png" alt="" />
+              </div>
+              <div class="product-description flex flex-col flex-1 gap-1">
+                <div class="flex justify-between font-bold">
+                  <span>iMac</span>
+                  <span>$1199.00</span>
+                </div>
+                <div class="text-gray-800">
+                  <span>Green</span>
+                </div>
+                <div class="mt-auto flex justify-between text-gray-800">
+                  <span>x1</span>
+                  <span class="text-2xl">×</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="splitter w-full mt-6 mx-auto border-t-gray-300 border-t-2 px-4"
+          ></div>
+          <div class="coupon mt-8 flex gap-2">
+            <input
+              type="text"
+              class="border border-gray-300 bg-white rounded-lg px-3 py-2 h-12 min-w-0 flex-1 placeholder-gray-700"
+              placeholder="Enter coupon code"
+            />
+            <button class="w-35 h-12 bg-black text-white rounded-lg">
+              Apply Coupon
+            </button>
+          </div>
+          <div class="total space-y-2 mt-6 font-bold">
+            <div class="flex justify-between text-gray-700">
+              <span> Sub total </span>
+              <span> $2597.00 </span>
+            </div>
+            <div class="flex justify-between text-gray-700">
+              <span> Tax </span>
+              <span> $623.28 </span>
+            </div>
+            <div class="flex justify-between">
+              <span> Tax </span>
+              <span> $3220.28 </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="contract-info-area bg-white sm:w-1/2 sm:h-full p-8 w-full h-auto"
+        >
+          <h2 class="font-semibold">Contract Information</h2>
+          <div class="form-area grid grid-cols-2 grid-rows-3 gap-8 mt-8">
+            <div class="col-span-2">
+              <label for="" class="text-gray-800 font-semibold text-sm">
+                First & Last name
+              </label>
+              <input
+                type="text"
+                class="border border-gray-300 bg-gray-100 rounded-lg mt-1 px-3 py-2 w-full h-14 placeholder-gray-700"
+                placeholder="Enter first & last name"
+              />
+            </div>
+            <div class="col-span-2">
+              <label for="" class="text-gray-800 font-semibold text-sm">
+                Email Address
+              </label>
+              <input
+                type="text"
+                class="border border-gray-300 bg-gray-100 rounded-lg mt-1 px-3 py-2 w-full h-14 placeholder-gray-700"
+                placeholder="Enter email address"
+              />
+            </div>
+            <div class="row-start-3 col-start-1 col-end-2">
+              <label for="" class="text-gray-800 font-semibold text-sm">
+                Country
+              </label>
+              <select
+                class="block border border-gray-300 bg-gray-100 mt-1 px-3 py-2 w-full h-14 border rounded-lg text-black"
+              >
+                <option>Finland</option>
+                <option>Sweden</option>
+                <option>Norway</option>
+              </select>
+            </div>
+            <div class="row-start-3 col-start-2">
+              <label for="" class="text-gray-800 font-semibold text-sm">
+                Postal Code
+              </label>
+              <input
+                type="text"
+                class="border border-gray-300 bg-gray-100 rounded-lg mt-1 px-3 py-2 w-full h-14 placeholder-gray-700"
+                placeholder="00270"
+              />
+            </div>
+          </div>
+          <button class="mt-8 w-full h-14 bg-black text-white rounded-lg">
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+    <!--     
+    Checkout
+    
+    3 items
+    
+    iPhone 12 Pro
+    
+    Golden
+    
+    $999.00
+    
+    x 1
+    
+    Apple Watch
+    
+    Blue
+    
+    $399.00
+    
+    iMac
+    
+    Green
+    
+    $1199.00
+    
+    Enter coupon code
+    
+    Apply Coupon
+    
+    Sub total
+    
+    $2597.00
+    
+    Tax
+    
+    $623.28
+    
+    Total
+    
+    $3220.28
+    
+    Contact Information
+    
+    First & Last name
+    
+    Enter first & last name
+    
+    Email Address
+    
+    Enter email address
+    
+    Country
+    
+    Finland
+    
+    Postal Code
+    
+    00270
+    
+    Continue
+     -->
+  </body>
+</html>

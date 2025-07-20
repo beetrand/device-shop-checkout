@@ -1,0 +1,21 @@
+{
+  "name": "device-shop-checkout",
+  "version": "1.0.0",
+  "description": "![Thumbnail for the Device Shop Checkout coding challenge](./thumbnail.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.45.1",
+    "@tailwindcss/vite": "^4.1.11",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.5"
+  },
+  "dependencies": {
+    "lightningcss-win32-x64-msvc": "^1.30.1"
+  }
+}
